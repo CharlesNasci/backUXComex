@@ -1,0 +1,187 @@
+[
+  {
+    "ContainingType": "API.Controllers.ClientesController",
+    "Method": "UpdateTodoStatusAsync",
+    "RelativePath": "api/Clientes/atualizarCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atualizaCliente",
+        "Type": "DapperWebAPI.Data.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ClientesController",
+    "Method": "GetTodoItemByIdAsync",
+    "RelativePath": "api/Clientes/cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ClientesController",
+    "Method": "GetClientesAsync",
+    "RelativePath": "api/Clientes/Clientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ClientesController",
+    "Method": "GetTodoItemByIdAsync",
+    "RelativePath": "api/Clientes/clientes/{parametro}/{campo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "campo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ClientesController",
+    "Method": "SaveAsync",
+    "RelativePath": "api/Clientes/criarcliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoCliente",
+        "Type": "DapperWebAPI.Data.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ClientesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Clientes/deletaCliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProdutosController",
+    "Method": "UpdateTodoStatusAsync",
+    "RelativePath": "api/Produtos/atualizarProduto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atualizaProduto",
+        "Type": "DapperWebAPI.Data.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProdutosController",
+    "Method": "SaveAsync",
+    "RelativePath": "api/Produtos/criarProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoProduto",
+        "Type": "DapperWebAPI.Data.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProdutosController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Produtos/deletaProduto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProdutosController",
+    "Method": "GetTodoItemByIdAsync",
+    "RelativePath": "api/Produtos/produto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProdutosController",
+    "Method": "GetClientesAsync",
+    "RelativePath": "api/Produtos/Produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.ProdutosController",
+    "Method": "GetTodoItemByIdAsync",
+    "RelativePath": "api/Produtos/produtos/{campo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "campo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
